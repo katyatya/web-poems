@@ -46,9 +46,9 @@ const html=document.querySelector('html')
 
 menu__item.forEach(function (menuItem) {
   menuItem.addEventListener('click', ()=>{
-  	burger.classList.toggle('active');
+  burger.classList.toggle('active');
 	menu.classList.toggle('open');
-	html.classList.remove('no-scroll');
+	html.classList.add('no-scroll');
   });
 });
 burger.addEventListener('click', ()=>{

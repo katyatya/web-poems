@@ -76,9 +76,11 @@ p{
 	font-weight: 300;
 	line-height: normal;
 	border: none;
+	padding: 0;
 }
 .dropdown {
 	position: relative;
+	bottom: 1px;
 	display: inline-block;
 }
 
